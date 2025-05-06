@@ -1,0 +1,103 @@
+@import 'tailwindcss';
+
+:root{
+    --bg: rgb(11, 10, 10);
+    --text: rgb(221, 219, 219);
+    --h: rgb(231, 226, 226);
+    --link: #DA0C81 ;
+    --blue: #2F58CD 
+}
+
+.body{
+    background: linear-gradient(360deg , rgb(12, 12, 12) , rgb(11, 10, 10) );
+    padding-bottom: 300px;
+ 
+}
+.link{
+    color: var(--h);
+}
+.pink{
+    color: var(--link); 
+}
+.blue{
+    color: var(--blue); 
+}
+.blue-bg{
+    background-color: var(--blue); 
+}
+.btn{
+    border: 2px solid var(--blue);
+ 
+}
+.btn:hover{
+    background-color: var(--blue); 
+    color: var(--h);
+    transition: all .4s;
+}
+.navbody{
+    background-color: rgb(5, 5, 6);
+    padding: 0 50px 0 20px;
+ transition: all .4s ;
+  position: fixed;
+}
+
+
+.icons a{
+    animation: up 1s linear infinite alternate ;
+    animation-delay: calc(var(--i) * .1s);
+
+}
+@keyframes up{
+    100%{
+        transform: translateY(-15px);
+    }
+}
+
+.navbody a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    color: var(--h);
+
+}
+  
+a span{
+    font-size: 15px;
+
+}
+.hand{
+    top: 120px
+}
+.hand, .head, .geto{
+    filter: brightness(0.5);
+    z-index: 1;
+}
+.geto{
+    position: fixed;
+    right: -100%;
+    z-index: 0
+}
+.white{
+    color: var(--text);
+    z-index: 10 ;
+    position: relative;
+}
+.skill-img img {
+    width: 3rem;
+
+}
+.gojo-body{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0.5);
+}
+.skills{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url('public/gojo body.png') no-repeat center/contain fixed;
+ 
+}
+.w-i{
+    width: 100%;    
+}
