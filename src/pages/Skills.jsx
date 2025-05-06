@@ -9,7 +9,7 @@ export const Skills = () => {
   <h1 className='pink text-6xl text-center font-bold pb-20 mt-10'>Skills</h1>
           <div className='flex gap-20 relative min-h-screen w  skills  '>
        
-              <div className='b flex justify-between w-i'>
+              <div className=' flex justify-between w-i'>
         
       
   <div className='skill-img  flex gap-10 flex-wrap  w-100 ml-10'>
@@ -65,22 +65,38 @@ export const Skills = () => {
   </div>
 
 
-<div className='b skill-img  flex gap-10 flex-wrap  w-100 ml-10'>
-  
+<div className=' skill-img  flex gap-10 flex-wrap  w-100 ml-10'>
 <div className='flex gap-3  w-fit items-center px-4 py-2 '>
+   
     <img src="public/codeigniter.png" alt="" />
     <p className='white'>CodeIgniter</p>
     </div>
     
     <div className='flex gap-3   w-fit items-center px-4 py-2'>
-    <img src="public/image/php.png" alt="" />
-    <p className='white'>PHP</p>
+    <img src="public/image/github.png" alt="" className=' rounded-full bg-white' />
+    <p className='white'>GitHub</p>
     </div>
     
     <div className='flex gap-3   w-fit items-center px-4 py-2'>
-    <img src="public/laravel.png" alt="" />
-    <p className='white'>Laravel</p>
+    <img src="public/image/mysql.png" alt="" />
+    <p className='white'>MySQL</p>
     </div>
+
+    <div className='flex gap-3   w-fit items-center px-4 py-2'>
+    <img src="public/node.png" alt="" />
+    <p className='white'>NodeJS</p>
+    </div>
+
+    <div className='flex gap-3   w-fit items-center px-4 py-2'>
+    <img src="public/ex.png" alt="" />
+    <p className='white'>Express</p>
+    </div>
+
+    <div className='flex gap-3   w-fit items-center px-4 py-2'>
+    <img src="public/mongo.png" alt="" />
+    <p className='white'>MongoDB</p>
+    </div>
+
 
 </div>
 
